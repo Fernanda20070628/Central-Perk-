@@ -1,0 +1,21 @@
+body{
+    background-color: #d4bf9f;
+}
+.cabeçalho{
+    width:90% ;
+    margin:10px;
+}
+.navegaçao{
+    background-color:rgb(241, 234, 234);
+    padding: 15px;
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.espaçamento{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+
