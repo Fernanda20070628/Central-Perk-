@@ -2,18 +2,46 @@ body{
     background-color: #d4bf9f;
 }
 .cabeçalho{
-    width:90% ;
-    margin:10px;
+    width:100%;
+    header>img{
+        margin: 0px;
+    }
 }
 .navegaçao{
-    background-color:rgb(241, 234, 234);
+    background-color:rgb(255, 255, 255);
     padding: 15px;
     display: flex;
-    flex-direction:row-reverse ;
+    flex-direction: row;
+    justify-content: right;
+    gap: 50px;
 }
-.espaçamento{
-    display: flex;
-    justify-content:space-around;
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+h1,h2{
+    color: #333030;
+    font-size: xx-large;
+    border: solid#7F7FA3 10px;
+    border-radius: 15px;
+    background-color: #7F7FA3;
+    border-width: 15px;
+    
+}
+.maps{
+    width:65%;
+    padding: 30px;
+    margin: 30px;
+    border:solid#7F7FA3;
+    border: radius 20px; ;
+    background-color: #7F7FA3;
+    box-shadow: #5f5f86;
+}
+.verso{
+    height: 0px;
+    width: 150px;
+    margin: 50px;
 }
 
 
