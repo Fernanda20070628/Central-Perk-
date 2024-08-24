@@ -1,0 +1,169 @@
+/*reset basico*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*cabeçalho*/
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    line-height: 1.6;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/*cabeçalho*/
+header{
+    width: 100%;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    padding:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header img{
+    max-width:120px ;
+    margin-left: 20px 0;
+}
+nav{
+    color:black;
+    text-decoration: none;
+    margin:0 15px ;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*conteudo principal*/
+h1{
+margin: 40px;
+color: rgb(0, 0, 0);
+}
+section{
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+width: 100%;
+}
+section img{
+    width: 100%;
+    height: auto;
+    border-radius:8px;
+margin-top: 40px;
+}
+
+/*rodapé*/
+footer{
+width:100% ;
+background-color: blueviolet;
+color: rgb(0, 0, 0);
+padding: 20px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+margin-top: 40px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+footer ul li{
+    margin:10px 0;
+}
+
+footer ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+   footer button{
+    padding: 10px 20px;
+    background-color: rgb(191, 112, 17);
+    color: black;
+    border: none;
+    border-radius:5px ;
+    font-weight: bold;
+    cursor: pointer;
+   }
+footer button:hover{
+    background-color: aqua;
+}
+
+footer .footer-brand{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer .imagem2{
+width:30px;
+height:30px;
+
+}
+
+footer .imagem2:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
