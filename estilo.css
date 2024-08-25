@@ -37,7 +37,7 @@ h2{
     justify-content: center;
     color: #333030;
     font-size: 40px;
-    border: solid#9faa82 10px;
+    border: solid #9faa82 10px;
     border-radius: 15px;
     margin:0;
    }
@@ -58,7 +58,7 @@ h2{
     height: 50%;
     padding: 30px;
     margin: 30px;
-    box-shadow:10px 10px 7px#b1b0af ;
+    box-shadow:10px 10px 7px #b1b0af ;
     border:solid #9faa82;
     border-radius:20px;
     background-color: #9faa82;
@@ -77,5 +77,84 @@ h2{
     display:flex;
     justify-content: space-around;
 }
+/*rodapé*/
+footer{
+width:100% ;
+background-color:#7F7FA3 ;
+color: rgb(0, 0, 0);
+padding: 20px;
+display:flex;
+justify-content:central;
+align-items: center;
+flex-direction: column;
+margin-top: 40px;
+}
 
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
 
+footer ul li{
+    margin:10px 0;
+}
+
+footer ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+   footer button{
+    padding: 10px 20px;
+    background-color:#7ECD67;
+    color: black;
+    border: none;
+    border-radius:5px ;
+    font-weight: bold;
+    cursor: pointer;
+   }
+footer button:hover{
+    background-color:#70AC77;
+}
+
+footer .footer-brand{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer .imagem2{
+width:30px;
+height:30px;
+
+}
+
+footer .imagem2:hover{
+    opacity: 0.7;
+}
+.bi-envelope{
+  font-size:35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.bi-envelope:hover{
+    transform: scale(1.3);
+}
+li{
+  font-size:25px;
+}
+button{
+  font-size:15px;
+}
