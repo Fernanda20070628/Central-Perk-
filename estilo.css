@@ -44,6 +44,9 @@ h2{
     border-radius: 15px;
     margin:0;
    }
+p{
+  font-size:20px;
+}
 .h2{
     width:500px;
     height: 95px;
