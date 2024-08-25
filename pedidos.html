@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formulário para filiais</title>
+    <link rel="stylesheet" href="estilopedidos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
 </head>
 <body>
   <header>
-        <div>
-        <img src="imagem/Logo.png" alt="logo café">
+        <div class="cabeçalho">
+        <img class="cabeçalho" src="imagem/Logo.png" alt="logo café">
         </div>
-        <nav>
+        <nav class="navegaçao">
+          <div class="espaçamento">
             <a href="index.html">Início</a>
             <a href="historia.html">Nossa História</a>
             <a href="pedidos.html">Filiais</a>
+          </div>
         </nav>
+        </div>
     </header>
+  <div class="tudo">
   <h1>Deseja uma loja pertinho de você?</h1>
-  <h2>Preencha nosso formulário abaixo:<h2>
+  <h2>Para requisitar uma filial, preencha o formulário abaixo:<h2>
+    <br>
   <div>
     <h3>Informações:<h3>
       <form method="post">
@@ -31,6 +38,7 @@
           <input type="text" id="telefone" name="telefone"><br>
         <label for="cidade">Cidade:</label><br>
           <input type="text" id="cidade" name="cidade"><br>
+        <div class="lista">
         <label for="estado">Estado</label><br>
           <select id="estado" name="estado" size="1">
             <option value="AC">AC</option>
@@ -61,13 +69,16 @@
             <option value="TO">TO</option>
             <option value="DF">DF</option>
           </select>
+        </div>
   </form>
       <form>
           <label style="color: " class=rodape for="">Faça um pequeno texto sobre você:</label>
            <br><br>
           <textarea id=textinho class=rodape name="dúvida" rows="10" cols="50">Sobre você!</textarea>
            <br>
+        <a href="index.html"><button>Enviar</button></a>
   </div>
+</div>
       <footer> 
     <h1>Informações Adicionais:</h1>
     <div>
@@ -90,9 +101,9 @@
     </div>
     <a href="historia.html"><button>Página Anterior</button></a>
     <div>
-      <img src="" alt="Logo da Atlas Company">
+       <img class="Logoatlas" src="imagem/ALAS COMPANY" alt="Logo da Atlas Company">
       <p>© Atlas Company</p>
-      <a  href="mailto:atlas.company.tech@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email%20aqui."><img class= imagem2 src="imagem/Email.svg" alt="Email"></a>
+      <a  href="mailto:atlas.company.tech@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email%20aqui."><i class="bi bi-envelope"></i></a>
     </div>
   </footer>  
 </body>
