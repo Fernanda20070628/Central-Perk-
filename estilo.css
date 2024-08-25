@@ -246,6 +246,7 @@ footer .imagem2:hover{
   align-items: center;
   flex-direction: column;
   text-align: center;
+  color:black;
 }
 .bi-envelope:hover{
     transform: scale(1.3);
