@@ -40,12 +40,9 @@ h2{
     border: solid#9faa82 10px;
     border-radius: 15px;
     margin:0;
-    background-color:#9faa82 ;
-    padding: 5px; 
-    margin-bottom: 30px;
    }
-.subtitle{
-
+.h2{
+    width:200px;
     height: 95px;
     padding: 2px;
     display: flex;
@@ -54,8 +51,6 @@ h2{
     background-color: #9faa82;
     border: solid 10px#9faa82;
     border-radius: 15px;
-    text-align: center;
-    margin-bottom: 20px;
     
 }
 .maps{
@@ -81,32 +76,6 @@ h2{
 .feedback{
     display:flex;
     justify-content: space-around;
-    
 }
-.flip{
-    border:10px solid #9faa82;
-    border-radius:20px;
-    width: 300px;
-    margin-bottom: 20px;
-}
-.flips{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-table{
-    height: 50px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    border: solid #9faa82;
-    border-radius: 10px;
-    
-}
-.Funcionamento{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
+
