@@ -1,1 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e2d1b7;
+}
+.cabeçalho{
+    width:100%;
+    header>img{
+    margin: 0px;
+    }
+    background-color: #7F7FA3;
+}
+.navegaçao{
+    background-color:#7F7FA3;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+h2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color:#333030;
+    margin-botton: 10px;
+}
+h3{
+  font-size: 30px;
+  color:#333030;
+}
+h1{
+margin: 40px;
+color: #333030;
+font-size:60px;
+}
+p{
+  font-size:20px;
+}
+label{
+  font-size:25px;
+}
+input{
+  width:500px;
+  font-size:20px;
+  border-radius:15px; 
+}
+#estado{
+ border-radius:15px;
+}
+.lista{
+  width:150px;
+  display:flex;
+  justify-content:space-around;
+}
+textarea{
+  margin:10px;
+  padding:10px;
+  border-radius:20px;
+}
+.tudo{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+button{
+    padding: 10px 20px;
+    background-color:#7ECD67;
+    color: black;
+    border: none;
+    border-radius:5px ;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#70AC77;
+}
+footer{
+width:100% ;
+background-color:#7F7FA3 ;
+color: rgb(0, 0, 0);
+padding: 20px;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+margin-top: 40px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 20px;
+}
+
+footer ul li{
+    margin:10px 0;
+}
+
+footer ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+   footer button{
+    padding: 10px 20px;
+    background-color:#7ECD67;
+    color: black;
+    border: none;
+    border-radius:5px ;
+    font-weight: bold;
+    cursor: pointer;
+   }
+footer button:hover{
+    background-color:#70AC77;
+}
+
+footer .footer-brand{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer .imagem2{
+width:30px;
+height:30px;
+
+}
+
+footer .imagem2:hover{
+    opacity: 0.7;
+}
+.bi-envelope{
+  font-size:35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color:black;
+}
+.bi-envelope:hover{
+    transform: scale(1.3);
+}
+li{
+  font-size:25px;
+}
+button{
+  font-size:15px;
+}
 
