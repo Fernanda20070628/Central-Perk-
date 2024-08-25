@@ -1,52 +1,53 @@
-/*reset basico*/
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-
-/*cabeçalho*/
 body{
-    font-family:Arial, Helvetica, sans-serif ;
-    line-height: 1.6;
-    background-color: white;
-    color: rgb(0, 0, 0);
+    background-color: #e2d1b7;
+}
+.cabeçalho{
+    width:100%;
+    header>img{
+    margin: 0px;
+    }
+    background-color: #7F7FA3;
+}
+.navegaçao{
+    background-color:#7F7FA3;
+    padding: 15px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    flex-direction: row;
+    justify-content: right;
+    gap: 50px;
 }
-
-/*cabeçalho*/
-header{
-    width: 100%;
-    background-color: blue;
-    color: rgb(0, 0, 0);
-    padding:20px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-header img{
-    max-width:120px ;
-    margin-left: 20px 0;
-}
-nav{
-    color:black;
+a{
     text-decoration: none;
-    margin:0 15px ;
-    font-weight: bold;
+    color: black;
+    padding: 15px;
 }
 
 nav a:hover{
     text-decoration: underline;
 }
 
-/*conteudo principal*/
+p{
+  font-size:20px;
+}
+h3{
+  font-size: 30px;
+  color:#333030;
+}
 h1{
 margin: 40px;
-color: rgb(0, 0, 0);
+color: #333030;
+font-size:60px;
+}
+.tudo{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 section{
     background-color: antiquewhite;
@@ -54,14 +55,23 @@ section{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-width: 100%;
+    max-width: 1000px;
+    width: 100%;
 }
 section img{
     width: 100%;
     height: auto;
     border-radius:8px;
 margin-top: 40px;
+}
+.image-container{
+  width:500px;
+  heigth:500px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border-radius:20px;
 }
 
 footer{
@@ -70,9 +80,9 @@ background-color:#7F7FA3 ;
 color: rgb(0, 0, 0);
 padding: 20px;
 display:flex;
-justify-content:central;
-align-items: center;
 flex-direction: column;
+justify-content:center;
+align-items: center;
 margin-top: 40px;
 }
 
@@ -80,6 +90,7 @@ footer ul{
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content:center;
     padding-left: 20px;
 }
 
@@ -144,41 +155,3 @@ li{
 button{
   font-size:15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
