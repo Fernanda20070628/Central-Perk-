@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+body{
+    
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -20,6 +29,7 @@ body{
     flex-direction: row;
     justify-content: right;
     gap: 50px;
+    font-size: x-large;
 }
 a{
     text-decoration: none;
@@ -65,7 +75,7 @@ section img{
 margin-top: 40px;
 }
 .image-container{
-  width:500px;
+  width: 700px;
   height:500px;
   display:flex;
   flex-direction:column;
