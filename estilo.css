@@ -128,7 +128,7 @@ p{
 /* Position the front and back side */
 .flip-box-front, .flip-box-back {
   position: relative;
-  -webkit-backface-visibility: hidden; /* Safari */
+  
   backface-visibility: hidden;
 }
 
