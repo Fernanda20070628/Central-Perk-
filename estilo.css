@@ -99,88 +99,50 @@ p{
     display: flex;
     justify-content: center;
 }
-.container{
-  position: relative;
-  width:300px;
-  height:200px; 
+.flip-box-bebidas,.flip-box-lanches{
+  display:flex;
+  justify-content:sapce-around;
 }
-.container:hover .flip{
-  transform:rotateY(180deg);
-}
-.flip{
-  position: absolute;
-  width:100%;
-  height: 100;
-  cursor:pointer;
-  transform-style:preserve-3d;
-  transition:.5s;
-}
-.frente1,.verso1,.frente2,.verso2,.frente3,.verso3,.frente4,.verso4,.frente5,.verso5,.frente6,.verso6{
-  position:absolute;
-  width:100%;
-  height:100;
-  border-radius:20px;
-  box-shadow:0px 0px 10px #565656;
-  backface-visibility: hidden;
-}
-.frente1{
-  background-image:url(imagem/capuccino.jpg);
-  background-size:cover;
-}
-.verso1{
-  background-image:url(imagem/6.png);
-  background-size:cover;
-  transform:rotateY(180deg);
-}
-.frente2{
-  background-image:url(imagem/caramelo.jpg);
-  background-size:cover;
-}
-.verso2{
-  background-image:url(imagem/4.png);
-  background-size:cover;
-  transform:rotateY(180deg);
-}
-.frente3{
-  background-image:url(imagem/chocolate.jpg);
-  background-size:cover;
-}
-.verso3{
-  background-image:url(imagem/1.png);
-  background-size:cover;
-  transform:rotateY(180deg);
-}
-.frente4{
-  background-image:url(imagem/bolo-chocolate.jpg);
-  background-size:cover;
-}
-.verso4{
-  background-image:url(imagem/5.png);
-  background-size:cover;
-  transform:rotateY(180deg);
-}
-.frente5{
-  background-image:url(imagem/croissant.jpg);
-  background-size:cover;
-}
-.verso5{
-  background-image:url(imagem/2.png);
-  background-size:cover;
-  transform:rotateY(180deg);
-}
-.frente6{
-  background-image:url(imagem/vegetariana.jpg);
-  background-size:cover;
-}
-.verso6{
-  background-image:url(imagem/3.png);
-  background-size:cover;
-  transform:rotateY(180deg);
+.flip-box {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
 }
 
-.feedback{
-    display:flex;
-    justify-content: space-around;
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: relative;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: var(--purple-600);
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: var(--purple-300);
+  color: var(--branco);
+  transform: rotateY(180deg);
 }
 /*rodapé*/
 footer{
