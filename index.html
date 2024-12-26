@@ -1,164 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="Css/estilo-home.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
-  <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Perk-Início</title>
+    <link rel="stylesheet" href="estilo.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <header class="cabecalho">
-   <div class="header-content"> 
-    
-    <nav class="uk-navbar-container-mobile">
-    <div class="uk-container">
-        <div uk-navbar>
-
-            <div class="uk-navbar-left">
-                <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="index.html">Home</a></li>
-                        <li class="uk-active"><a href="Indicacoes.html">Indicações</a></li>
-                        <li class="uk-active"><a href="Avaliacoes.html">Avaliações</a></li>
-                        <li class="uk-active"><a href="ListaDeEspera.html">Lista de espera</a></li>
-                        <li class="uk-active"><a href="PorQueLer.html">Por que ler?</a></li>
-                        <li class="uk-active"><a href="História.html">História</a></li>
-                        <li class="uk-active"><a href="Reviews.html">Reviews</a></li>
-                        <li class="uk-active"><a href="Desenvolvedores.html">Desenvolvedores</a></li>
-                    </ul>
-                </div>
-            </div>
-
+    <header>
+        <div class="cabeçalho">
+          <img  class="cabeçalho"  src="imagem/Logo.png" alt="logo café" width="1920px" height="auto">
+          <nav class="navegaçao">
+          <div class="espaçamento">
+            <a href="index.html">Início</a>
+            <a href="historia.html">Nossa História</a>
+            <a href="pedidos.html">Filiais</a>
+           </div>
+        </nav>
         </div>
+    </header>
+    <h1 id="ondestamos">Onde estamos?</h1>
+    <div class="central">
+      <div class="maps">
+        <div class="maps1" style="max-width:100%;overflow:hidden;color:red;width:1000px;height:700px;"><div id="display-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Warner+Bros-+La+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-code-enabler" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a><style>#display-google-map .text-marker{}.map-generator {max-width: 100%; max-height: 100%; background: none;}</style></div>
+      </div>
     </div>
-</nav>
-<img class="logo"src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
+    <div id="principaisprodutos"> 
+    <h1>Principais Produtos:</h1>
+    <br>
+    <div class="h2">
+      <h2>Bebidas</h2>
+    </div>
+   <div class="flip-position">  
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="imagem/capuccino.jpg" alt="Capuccino" style="width:300px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <img src="imagem/6.png" alt="Avaliação Capuccino" style="width:300px;height:200px;">
+    </div>
   </div>
-  <div class="cabecalho-desk">
-  <nav class="uk-navbar-container-desktop">
-    <div class="uk-container">
-        <div uk-navbar="mode: click">
-
-            <div class="uk-navbar-left">
-              <div class="centrarlizarNav">
-                <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a class="atual"href="index.html">Home</a></li>
-                    <li><a class="outras"href="Indicacoes.html">Indicações</a></li>
-                    <li><a class="outras" href="Avaliacoes.html">Avaliações</a></li>
-                    <li><a  class="outras"href="ListaDeEspera.html">Lista de Espera</a></li>
-                    <li><a class="outras" href="PorQueLer.html">Por que ler?</a></li>
-                    <li><a class="outras" href="História.html">História</a></li>
-                    <li><a class="outras" href="Reviews.html">Reviews</a></li>
-                    <li><a class="outras" href="Desenvolvedores.html">Desenvolvedores</a></li>
-
-                </ul>
-              </div>
-            </div>
-
-        </div>
-    </div>
-</nav>
 </div>
-</header>
-  <div class="nossosEventos">
-    <h1 class="titulos">Nossos Eventos</h1>
-    <div class="carrossel-containel">
-      <div class="carrossel">
-        <div class="botao">
-        <button class="ante">&#10094;</button></div>
-        <div class="imagens">
-            <img src="Imagens/página1/Feira Literária- carrosel.png" alt="Feira Literária">
-            <img src="Imagens/página1/Feira Infantil-carrossel.png" alt="Feira Infantil">
-            <img src="Imagens/página1/clube do livro.png" alt="Clube do livro">
-        </div>
-        <div class="botao">
-         <button class="prox">&#10095;</button></div>   
-        </div>
-      </div>
+ 
+   
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="imagem/caramelo.jpg" alt="Latte de caramelo" style="width:300px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <img src="imagem/4.png" alt="Avaliação Latte de Caramelo" style="width:300px;height:200px;">
     </div>
   </div>
-  <div class="lancamentos">
-    <h1 class="titulos">Lançamentos</h1>
-    <div class="primeiralinha">
-      <div class="principeCruel">
-        <h2>Principe Cruel- Holly Black </h2>
-        <img src="Imagens/página1/Principe cruel- lançamentos.jpg" alt="Principe Cruel">
-        <p>Em O Príncipe Cruel, Jude, uma mortal, é levada ao reino das fadas e precisa enfrentar intrigas, traições e o desprezo de Cardan, um príncipe fae cruel e fascinante, enquanto luta por poder e sobrevivência nesse mundo mágico e perigoso.</p>
-      </div>
-
-      <div class="EueEsseMeuCoracao">
-        <h2>Eu e esse meu coração- C.C. Hunter</h2>
-        <img src="Imagens/página1/Eu e esse meu coração.jpg" alt="Eu e esse meu coração">
-        <p>Em Eu e Esse Meu Coração, Tessa, vivendo com uma grave condição cardíaca, se envolve em uma jornada de autodescoberta e romance enquanto enfrenta decisões que podem mudar sua vida para sempre.</p>
-      </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="imagem/chocolate.jpg" alt="Chocolate quente com whisky" style="width:300px;height:200px;">
     </div>
-    <div class="segundalinha">
-      <div class="habitosAtomicos">
-        <h2>Hábitos Atômicos- James Clear</h2>
-        <img src="Imagens/página1/hábitos atômicos.jpg" alt="Hábitos Atômicos">
-        <p>Em Hábitos Atômicos, James Clear apresenta estratégias simples e práticas para construir bons hábitos, eliminar os ruins e transformar pequenas ações diárias em mudanças significativas e duradouras.</p>
-      </div>
-
-      <div class="GarotosdoCemiterio">
-        <h2>Os Garotos do Cemitério-Aiden Thomas</h2>
-        <img src="Imagens/página1/Os garotos do cemitério.jpg" alt="Os garotos do cemitério">
-        <p>Em Os Garotos do Cemitério, um adolescente médium descobre segredos sombrios enquanto investiga um assassinato com a ajuda do espírito da vítima e amigos improváveis.</p>
-      </div>
+    <div class="flip-card-back">
+      <img src="imagem/1.png" alt="Avaliação Chocolate quente" style="width:300px;height:200px;">
     </div>
   </div>
-  <div class="localizacao">
-    <h1 class="titulos">Localização</h1>
-    <div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.5183597250907!2d12.47693097523586!3d41.903214263842536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6053f4560eaf%3A0x92dc2249ee91dd51!2sVia%20del%20Corso%2C%2000187%20Roma%20RM%2C%20It%C3%A1lia!5e0!3m2!1spt-BR!2sbr!4v1734292698918!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+<div class="h2">
+      <h2>Lanches</h2>
+    </div>
+<div class="flip-position">  
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="imagem/vegetariana.jpg" alt="Quiche Vegetariana" style="width:300px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <img src="imagem/3.png" alt="Avaliação Quiche" style="width:300px;height:200px;">
     </div>
   </div>
-  <div class="patrocinadores">
-    <h1 class="titulos">Patrocinadores</h1>
-    <a href="https://www.record.com.br/editoras/galera/">
-    <img src="Imagens/página1/galera- patrocinadores.png" alt="Galera Record"></a>
-     <a href="https://www.editoraarqueiro.com.br/">
-    <img src="Imagens/página1/Arqueiro.png" alt="Arqueiro"></a>
-     <a href="https://editorasaraiva.com.br/">
-    <img src="Imagens/página1/saraiva.jfif" alt="Saraiva"></a>
-     <a href="https://www.editoraseguinte.com.br/">
-    <img src="Imagens/página1/seguinte.jpg" alt="Seguinte"></a>
+</div>
+ 
+   
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="imagem/bolo-chocolate.jpg" alt="Avaliação do bolo de chocolate" style="width:300px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <img src="imagem/5.png" alt="Avaliação do Bolo de chocolate" style="width:300px;height:200px;">
+    </div>
   </div>
-  <footer>
-    <div class="minerva">
-    <div class="redesSociais">
-    <h3>Redes Sociais</h3>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="imagem/croissant.jpg" alt="croissant" style="width:300px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <img src="imagem/2.png" alt="Avaliação Croissant" style="width:300px;height:200px;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+   
+    <div class="h2">
+      <h2 class="bigtitle">Horário de Funcionamento:</h2>
+    </div>
+    <div class="tabela">
+      <table>
+        <tr>
+            <td class="item1">Segunda à Sexta:</td>
+            <td> 7h às 18h</td>
+        </tr>
+        <tr>
+            <td>Sábados, Domingos e Feriados</td>
+            <td>8h às 21h</td>
+        </tr>
+        
+      </table>
+    </div>
+   <div  id="redessociais">
+    <div class=h2>
+      <h2 class="bigtitle">Entre em contato conosco:</h2>
+    </div>
     <div class="icones">
-      <a href="https://www.instagram.com/bibliotecaminervaa/"><i class="bi bi-instagram"></i></a>
-      <a href="https://t.me/BibliotecaMinerva"><i class="bi bi-telegram"></i></a>
-      <a href="https://wa.me/5534998409980?text="><i class="bi bi-whatsapp"></i></a>
-      <a href="mailto:atlas.company.tech@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email%20aqui."><i class="bi bi-envelope"></i></a></div>
-      <br>
-    <a href="index.html"><h3>Principais eventos da semana</h3></a>
-    <a href="index.html"><h3>Onde estamos?</h3></a>
-    <a href="Indicacoes.html"><h3>Nossas indicações</h3></a>
-    <a href="Avaliacoes.html"><h3>Avaliações literárias da semana</h3></a>
-    <a href="ListaDeEspera.html"><h3>Lista de espera</h3></a>
-    <a href="PorQueLer.html"><h3>Benefícios da leitura</h3></a>
-    <a href="História.html"><h3>Conheça a nossa história</h3></a>
-    <a href="Reviews.html"><h3>Reviews da nossa biblioteca</h3></a>
-    <a href="Desenvolvedores.html"><h3>Quem desenvolveu este site?</h3></a>
-     <img src="Imagens/logos/Minerva s fundo.png" alt="logo minerva">
-     </div>
-     <div class="Atlas">
-       <img src="Imagens/logos/ATLAS COMPANY.png" alt="logo Atlas">
-       <h5>©Atlas Company</h5>
-       <a href="mailto:atlas.company.tech@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email%20aqui."><i class="bi bi-envelope"></i></a>
-     </div>
+    <a  href="https://www.instagram.com/centralperk/?igsh=NGZzbjM1ZXU1ajhl"><i class="bi bi-instagram"></i></a>
+    <br>
+    <a href="https://www.facebook.com/CentralPerkCoffee/"><i class="bi bi-facebook"></i></a>
+    <br>
+    <a href="https://wa.me/5534998409980?text="><i class="bi bi-whatsapp"></i></a>
+    <br>
+    </div>
+  <footer> 
+    <h1>Informações Adicionais:</h1>
+    <div>
+      <ul>
+              <li><a href="#ondeestamos"> Localização</a></li>
+                <br>
+             <li><a href="#principaisprodutos">Produtos e Avaliações</a></li>
+                <br>
+             <li><a href="#redessociais">Nosso contato</a></li>
+                <br>
+      </ul>
+    </div>
+    <a href="historia.html"><button>Próxima Página</button></a>
+    <div>
+      <img class="Logoatlas" src="imagem/ATLAS COMPANY.png" alt="Logo da Atlas Company">
+      <p>© Atlas Company</p>
+      <a class="grow" href="mailto:atlas.company.tech@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email%20aqui."><i class="bi bi-envelope"></i></a>
+    </div>
   </footer>
- <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
-  <script src="arquivohome.js"></script>
-
 </body>
 </html>
